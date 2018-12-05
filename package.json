@@ -1,0 +1,21 @@
+{
+  "name": "designpatterns",
+  "version": "1.0.0",
+  "description": "record practice of design patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha */ -r babel-register -r jsdom-global/register"
+  },
+  "keywords": [
+    "design",
+    "patterns"
+  ],
+  "author": "daguo",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "jsdom": "^13.0.0",
+    "jsdom-global": "^3.0.2"
+  }
+}
